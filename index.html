@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/icons.css">
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function(event) {
+
+            var ham_menu = document.getElementById("hamburger-menu");
+            var mobile_menu_wrapper = document.getElementById("mobile-menu__wrapper");
+            ham_menu.addEventListener("click", function(){
+                mobile_menu_wrapper.classList.toggle('show');
+
+            });
+            mobile_menu_wrapper.addEventListener("click", function(){
+                mobile_menu_wrapper.classList.toggle('show');
+            });
+        })
+    </script>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+            <div class="top-nav__wrapper">
+                <div class="top-nav__inner__wrapper box-container">
+                    <div class="quick-links__wrapper">
+                        <ul id="quick-links">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Demo</a></li>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact__wrapper">
+                        <ul id="social-links">
+                            <li><a href="#"><span class="icon-facebook-svgrepo-com"></span></a></li>
+                            <li><a href="#"><span class="icon-instagram-logo-svgrepo-com-1"></span></a></li>
+                            <li><a href="#"><span class="icon-twitter-svgrepo-com"></span></a></li>
+                            <li><a href="#"><span class="icon-email-svgrepo-com"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main-nav__wrapper">
+                <div class="main-nav__inner__wrapper box-container">
+                    <div class="logo__wrapper">
+                        <a href="#home">
+                            <img src="assets/images/logo.png" alt="website logo" />
+                        </a>
+                    </div>
+                    <nav class="menu__wrapper">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#service">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="close-btn">
+                        <span id="hamburger-menu" class="icon-hamburger-menu-svgrepo-com-1"></span>
+                    </div>
+                </div>
+                <div id="mobile-menu__wrapper" class="mobile-menu__wrapper">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+    </header>
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Banner Section -->
+        <section id="home" class="hero-banner__section">
+            <div class="hero-banner__wrapper">
+                <img src="assets/images/hero.jpg" alt="Hero Banner" />
+                <div class="centered">
+                    <h1>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    </h1>
+                    <a href="#" class="transparent-button">Learn more</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about__section">
+            <div class="about__wrapper box-container">
+                <div class="about-left">
+                    <p class="ot_title">About us</p>
+                    <h2>
+                        Donec sollicitudin molestie malesuada Curabitur aliquet
+                    </h2>
+                </div>
+                <div class="about-right">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                    </p>
+                    <p>
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+                        But also the leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                    <p>
+                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
+                    </p>
+                    <a href="about.html" class="solid-button">
+                        Read more
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services section -->
+        <section id="service" class="service__section">
+            <div class="service-header__wrapper box-container">
+                <p class="ot_title">Our Services</p>
+                <h2>
+                    Donec sollicitudin molestie malesuada Curabitur aliquet
+                </h2>
+            </div>
+            <div class="service__wrapper box-container">
+                <div class="service-tile">
+                    <h4>
+                        Branding
+                    </h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    </p>
+                </div>
+                <div class="service-tile">
+                    <h4>
+                        Web Design
+                    </h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    </p>
+                </div>
+                <div class="service-tile">
+                    <h4>
+                        Ecommerce
+                    </h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    </p>
+                </div>
+                <div class="service-tile">
+                    <h4>
+                        App Development
+                    </h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    </p>
+                </div>
+                <div class="service-tile">
+                    <h4>
+                        Branding
+                    </h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    </p>
+                </div>
+                <div class="service-tile">
+                    <h4>
+                        Web Design
+                    </h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    </p>
+                </div>
+                <div class="service-tile">
+                    <h4>
+                        Ecommerce
+                    </h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    </p>
+                </div>
+                <div class="service-tile">
+                    <h4>
+                        App Development
+                    </h4>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio__section">
+            <div class="portfolio-header__wrapper box-container">
+                <p class="ot_title">Our Portfolio</p>
+                <h2>
+                    Donec sollicitudin molestie malesuada Curabitur aliquet
+                </h2>
+            </div>
+            <div class="portfolio__wrapper box-container">
+                <div class="portfolio-tile">
+                    <img src="assets/images/p1.jpg" alt="portfolio 1">
+                    <span>
+                        Lorem Ipsum is simply dummy text
+                    </span>
+                </div>
+                <div class="portfolio-tile">
+                    <img src="assets/images/p2.jpg" alt="portfolio 2">
+                    <span>
+                        Lorem Ipsum is simply dummy text
+                    </span>
+                </div>
+                <div class="portfolio-tile">
+                    <img src="assets/images/p3.jpg" alt="portfolio 3">
+                    <span>
+                        Lorem Ipsum is simply dummy text
+                    </span>
+                </div>
+                <div class="portfolio-tile">
+                    <img src="assets/images/p4.jpg" alt="portfolio 4">
+                    <span>
+                        Lorem Ipsum is simply dummy text
+                    </span>
+                </div>
+                <div class="portfolio-tile">
+                    <img src="assets/images/p5.jpg" alt="portfolio 5">
+                    <span>
+                        Lorem Ipsum is simply dummy text
+                    </span>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact us section -->
+        <section id="contact" class="contact__section">
+            <div class="contact__wrapper box-container">
+                <h4>
+                    Can we be of any help? Please call us at +1 123 123 or <a href="mailto:info@bytestech.com" class="transparent-button">Email</a>
+                </h4>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer content -->
+    <footer>
+        <div class="footer__wrapper box-container">
+            <div class="first_col">
+                <img src="assets/images/logo_white.png" alt="website logo" />         
+            </div>
+            <div class="second_col">
+                <h5>Useful Links</h5>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#service">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="third_col">
+                <h5>Contact</h5>
+                <p>Address here</p>
+                <p>T: +1 123 123</p>
+                <p>E: info@bytestech.com</p>
+            </div>
+
+            <div class="fourth_col">
+                <h5>Social</h5>
+                <p>
+                    <a href="#"><span class="icon-facebook-svgrepo-com"></span></a>
+                    <a href="#"><span class="icon-instagram-logo-svgrepo-com-1"></span></a>
+                    <a href="#"><span class="icon-twitter-svgrepo-com"></span></a>
+                    <a href="#"><span class="icon-email-svgrepo-com"></span></a>
+                </p>
+            </div>
+        </div>
+        <div class="bottom__wrapper box-container">
+            <div class="copyright">
+                <p>
+                    &copy; Copyright <b>Bytes Tech</b> |  All rights reserved
+                </p>
+            </div>
+            <div class="policy">
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
