@@ -497,6 +497,35 @@ section.portfolio__section div.portfolio__wrapper div.portfolio-tile > span {
 }
 
 
+/****************** CLIENT ******************/
+section.client__section
+{
+    position: relative;
+    padding-top: 150px;
+}
+
+section.client__section div.client__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+section.client__section div.client-header__wrapper
+{
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+section.client__section div.client__wrapper img {
+    width: 120px;
+    filter: grayscale(1)!important;
+}
+
 
 /****************** CONTACT *****************/
 section.contact__section
